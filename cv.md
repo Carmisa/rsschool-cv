@@ -22,8 +22,8 @@ Passionate junior front-end developer with a desire to learn and grow in a colla
 ```int a = 20;```
 
 ## **Experience**
-* lorem ipsum
-* lorem ipsum
+* Economics
+* State procurements
 
 ## **Education**
 * *Chelyabinsk State University, Global Economics*
