@@ -1,1 +1,1 @@
-# rsschool-cv
+https://camisa.github.io/rsschool-cv/cv
