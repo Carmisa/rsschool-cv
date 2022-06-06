@@ -1,1 +1,1 @@
-https://camisa.github.io/rsschool-cv/
+https://carmisa.github.io/rsschool-cv/
