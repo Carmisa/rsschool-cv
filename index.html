@@ -1,70 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rsschool-cv-html</title>
-  </head>
-  <body>
-    <header>
-      <img src="./images/profile-pic.jpg" alt="profile pic" width="200" height="200">
-      <h1>Xenia Petrova</h1>
-      <h2>Junior Frontend Developer</h2>
-    </header>
-    <main>
-      <h3>Contacts</h3>
-      <ul>
-        <li><a href="https://t.me/carmisay">telegram</a></li>
-        <li>discord: Xenia Petrova#6636</li>
-        <li>e-mail: carmisay@gmail.com</li>
-      </ul>
-      <h3>Skills</h3>
-      <ul>
-        <li>Markup Languages: HTML, CSS</li>
-        <li>Programming Language: basic JavaScript, basic Python</li>
-        <li>CMS: WordPress</li>
-        <li>Version Management: Git, Github</li>
-        <li>Project Manager: JIRA</li>
-        <li>OS: Windows, Linux (Ubuntu)</li>
-        <li>
-          Tools: VS Code; Adobe - Photoshop, Illustrator, InDesign, Microsoft
-          Office
-        </li>
-        <li>Other: basics of SEO and SMM</li>
-      </ul>
-      <h3>Languages</h3>
-      <ul>
-        <li>Russian - native</li>
-        <li>English - A2</li>
-      </ul>
-      <h3>Summary</h3>
-      <p>
-        Passionate junior front-end developer with a desire to learn and grow in
-        a collaborative team environment. Skilled in HTML, CSS, and basic
-        JavaScript. I am very interested in creating websites and Apps Like a
-        Pro. I am also interested in UI/UX design.
-      </p>
-      <h3>Education</h3>
-      <p><strong>Chelyabinsk State University, Global Economics</strong></p>
-      <p>Faculty of Economics</p>
-      <p>Years: 2007 - 2012</p>
-      <p>
-        Specialization: Global Economics, Specialist degree (BA/MA-equivalent)
-      </p>
-      <h3>Courses</h3>
-      <ul>
-        <li>CS50 video course</li>
-        <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
-        <li>JavaScript learn.javascript.ru</li>
-      </ul>
-      <h3>Code example</h3>
-      <code>int a = 20;</code>
-      <h3>Experience</h3>
-      <ul>
-        <li>Economics</li>
-        <li>State procurements</li>
-      </ul>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&family=Oswald&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <nav class="topnav">
+        <div class="container">
+          <ul class="nav-list">
+            <li class="animation"><a href="#summary" class="nav-link">summary</a></li>
+            <li class="animation"><a href="#skills" class="nav-link">skills</a></li>
+            <li class="animation"><a href="#work" class="nav-link">work example</a></li>
+            <li class="animation"><a href="#code" class="nav-link">code example</a></li>
+            <li class="animation"><a href="#contacts" class="nav-link">contacts</a></li>
+            <li class="animation"><a href="#education" class="nav-link">education</a></li>
+            <li class="animation"><a href="#courses" class="nav-link">courses</a></li>
+            <li class="animation"><a href="#experience" class="nav-link">experience</a></li>
+            <li class="animation"><a href="#languages" class="nav-link">languages</a></li>
+          </ul>
+        </div>
+      </nav>
+      <header class="header">
+        <div class="container">
+          <section class="section" id="profile">
+            <div class="section-profile">
+              <img src="./assets/svg/Work_from_home.svg" alt="profile-pic" class="profile-pic">
+              <div class="profile">
+                <h1 class="profile-title">Xenia Petrova</h1>
+                <h2 class="profile-subtitle">Junior <span class="highlight-container"><span class="highlight">Front-End Developer</span></span></h2>
+              </div>
+            </div>
+          </section>
+        </div>
+      </header>
+      <div class="main-container">
+        <aside class="aside">
+          <div class="container">
+            <section class="section" id="contacts">
+              <h2 class="section-title"><span class="highlight-container"><span class="highlight">Contacts</span></span>
+              </h2>
+              <ul class="section-list">
+                <li class="contacts-item"><a href="https://t.me/carmisay"><img src="./assets/svg/telegram.svg"
+                      alt="telegram"></a></li>
+                <li class="contacts-item"><a href="https://discordapp.com/users/982568917618815017"><img
+                      src="./assets/svg/discord.svg" alt="discord"></a></li>
+                <li class="contacts-item"><a href="mailto:carmisay@gmail.com"><img src="./assets/svg/email.svg"
+                      alt="email"></a></li>
+              </ul>
+            </section>
+            <section class="section" id="education">
+              <h2 class="section-title"><span class="highlight-container"><span
+                    class="highlight">Education</span></span>
+              </h2>
+              <div class="education">
+                <p><strong>Chelyabinsk State University, Global Economics</strong></p>
+                <p>Faculty of Economics</p>
+                <p>Years: 2007 - 2012</p>
+                <p>
+                  Specialization: Global Economics, Specialist degree (BA/MA-equivalent)
+                </p>
+              </div>
+            </section>
+            <section class="section" id="courses">
+              <h2 class="section-title"><span class="highlight-container"><span class="highlight">Courses</span></span>
+              </h2>
+              <ul class="markers">
+                <li class="section-item">CS50 video course</li>
+                <li class="section-item">RS School «JavaScript/Front-end. Stage 0»</li>
+                <li class="section-item"><a href="https://learn.javascript.ru">JavaScript</a></li>
+              </ul>
+            </section>
+            <section class="section" id="experience">
+              <h2 class="section-title"><span class="highlight-container"><span
+                    class="highlight">Experience</span></span>
+              </h2>
+              <ul class="markers">
+                <li class="section-item">Economics</li>
+                <li class="section-item">State procurements</li>
+              </ul>
+            </section>
+            <section class="section" id="languages">
+              <h2 class="section-title"><span class="highlight-container"><span
+                    class="highlight">Languages</span></span></h2>
+              <ul class="markers">
+                <li class="section-item">Russian - native</li>
+                <li class="section-item">English - A2</li>
+              </ul>
+            </section>
+          </div>
+        </aside>
+        <main class="main">
+          <div class="container">
+            <div class="content-left">
+              <section class="section" id="summary">
+                <h2 class="section-title"><span class="highlight-container"><span
+                      class="highlight">Summary</span></span>
+                </h2>
+                <p>
+                  Passionate junior front-end developer with a desire to learn and grow in
+                  a collaborative team environment. Skilled in HTML, CSS, and basic
+                  JavaScript. I am very interested in creating websites and apps like a
+                  pro. I am also interested in UI/UX design.
+                </p>
+              </section>
+              <section class="section" id="skills">
+                <h2 class="section-title"><span class="highlight-container"><span class="highlight">Skills</span></span>
+                </h2>
+                <ul class="markers">
+                  <li class="section-item">Markup Languages: HTML, CSS</li>
+                  <li class="section-item">Programming Language: basic JavaScript</li>
+                  <li class="section-item">CMS: WordPress</li>
+                  <li class="section-item">Version Management: Git, Github</li>
+                  <li class="section-item">OS: Windows, Linux (Ubuntu)</li>
+                  <li class="section-item">
+                    Tools: VS Code; Adobe - Photoshop, Illustrator, InDesign
+                  </li>
+                  <li class="section-item">Other: basics of SEO and SMM</li>
+                </ul>
+              </section>
+              <section class="section" id="work">
+                <h2 class="section-title"><span class="highlight-container"><span class="highlight">Work
+                      examples</span></span></h2>
+                <ul class="markers">
+                  <li class="section-item"><a href="https://carmisa.github.io/rsschool-cv/">CV</a></li>
+                  <li class="section-item"><a href="https://ketomalina.ru">Blog</a></li>
+                </ul>
+              </section>
+              <section class="section" id="code">
+                <h2 class="section-title"><span class="highlight-container"><span class="highlight">Code
+                      example</span></span></h2>
+                <pre class="pre"><code>function multiply(a, b){
+            return a * b
+            }</code></pre>
+              </section>
+            </div>
+          </div>
+        </main>
+      </div>
+    <footer class="footer">
+      <div class="footer-git">
+        <a href="https://github.com/carmisa"><img src="./assets/img/github.png" alt="github Icon"></a>
+      </div>
+      <div class="footer-date">
+        <p>&#169; 2022</p>
+      </div>
+      <div class="footer-rss"><a href="https://rs.school/js/"><img src="./assets/svg/logo_rs.svg" alt="rss"></a></div>
+    </footer>
+  </div>
+</body>
 </html>
