@@ -20,7 +20,7 @@ body {
 
 .container {
   max-width: 800px;
-  margin: 0;
+
 }
 
 .main-container {
@@ -31,8 +31,7 @@ body {
 .main {
   box-sizing: border-box;
   width: 60%;
-  padding: 1px 15px;
-  padding: 0 30px;
+  padding: 0px 30px;
 }
 
 .page {
@@ -44,30 +43,21 @@ body {
   box-shadow: 15px 15px 30px -2px #a7a7a7;
 }
 
-.page-main {
-  margin: auto;
-  font-family: Lato;
-  background-color: white;
-  box-shadow: 5px 5px 50px -1px rgba(228, 228, 228, 0.23);
-}
-
 .topnav {
+  width: 100%;
+  height: 60px;
   list-style: none;
+  font-size: 0;
   background-color: #6667AB;
-  font-size: 0px;
-  text-decoration-color: white;
-  display: flex;
-  height: inherit;
-  justify-content: space-between;
 }
 
 .topnav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  padding: 0;
-  line-height: 10px;
-  font-size: 18px;
-  font-weight: bolder;
+  font-family: Oswald;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-list {
@@ -91,7 +81,7 @@ body {
 
 .section-profile {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   width: 100%;
   padding: 50px 30px 35px;
 }
@@ -105,7 +95,9 @@ body {
   text-transform: uppercase;
 }
 
-.profile-pic {width: 30%;}
+.profile-pic {
+  width: 30%;
+}
 
 .aside {
   background-color: #eaebfd;
@@ -130,20 +122,25 @@ body {
   text-align: center;
 }
 
-.footer-git img {width: 30%;}
-.footer-rss img {width: 40%;}
+.footer-git img {
+  width: 30%;
+}
+
+.footer-rss img {
+  width: 40%;
+}
 
 a {
   text-decoration: none;
-  color:#6667AB;
+  color: #6667AB;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 32px;
-    line-height: 1.0;
-    color: #3c3d87;
-  }
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  line-height: 1.0;
+  color: #3c3d87;
+}
 
 h2 {
   font-family: 'Oswald', sans-serif;
